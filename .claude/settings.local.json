@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:sistec-ai-adoption.netlify.app)",
+      "bash",
+      "read",
+      "write"
+    ]
+  }
+}

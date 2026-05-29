@@ -1,0 +1,110 @@
+/* --- Stile personalizzato della proposta --- */
+:root {
+	--accent: #cc785c;
+	--accent-dark: #a85a40;
+	--ink: #24292e;
+	--muted: #5b6168;
+	--bg: #f7f6f3;
+	--card: #ffffff;
+	--border: #e6e3dd;
+}
+
+body {
+	max-width: 860px;
+	margin: 0 auto;
+	padding: 48px 28px 80px;
+	background: var(--bg);
+	color: var(--ink);
+	font-size: 15px;
+	line-height: 1.7;
+}
+
+h1 {
+	font-weight: 700;
+	font-size: 2em;
+	color: var(--accent-dark);
+	border-bottom: 3px solid var(--accent);
+	padding-bottom: .35em;
+	margin-top: 0;
+}
+
+h2 {
+	font-weight: 600;
+	font-size: 1.4em;
+	color: var(--accent-dark);
+	margin-top: 2em;
+	padding-left: 12px;
+	border-left: 4px solid var(--accent);
+}
+
+h3 {
+	font-weight: 600;
+	color: var(--ink);
+	margin-top: 1.6em;
+}
+
+hr {
+	border: 0;
+	border-bottom: 1px solid var(--border);
+	margin: 2.2em 0;
+}
+
+a { color: var(--accent-dark); }
+
+strong { color: #111; }
+
+/* Tabelle */
+table {
+	width: 100%;
+	border-collapse: collapse;
+	margin: 1.2em 0;
+	background: var(--card);
+	border-radius: 8px;
+	overflow: hidden;
+	box-shadow: 0 1px 3px rgba(0, 0, 0, .06);
+	font-size: .95em;
+}
+
+table > thead > tr > th {
+	background: var(--accent);
+	color: #fff;
+	font-weight: 600;
+	border: none;
+}
+
+table > thead > tr > th,
+table > tbody > tr > td {
+	padding: 10px 14px;
+	border: none;
+	vertical-align: top;
+}
+
+table > tbody > tr:nth-child(even) {
+	background: #faf8f5;
+}
+
+table > tbody > tr + tr > td {
+	border-top: 1px solid var(--border);
+}
+
+/* Citazioni */
+blockquote {
+	background: #fdf3ee;
+	border-left: 4px solid var(--accent);
+	margin: 1.4em 0;
+	padding: 2px 18px;
+	color: var(--muted);
+	border-radius: 0 6px 6px 0;
+}
+
+/* Codice inline */
+:not(pre) > code {
+	background: #efece6;
+	color: var(--accent-dark) !important;
+	padding: 1px 6px;
+	border-radius: 4px;
+	font-size: .88em;
+}
+
+ul { padding-left: 1.3em; }
+li { margin: .25em 0; }

@@ -28,3 +28,9 @@ https://chatgpt.com/it-IT/business/enterprise/
 https://cursor.com/pricing
 https://www.swebench.com/index.html
 https://epoch.ai/benchmarks
+
+## Reminder 
+
+<link rel="stylesheet" href="style.css">
+
+aggiungi all'expoert html del md
